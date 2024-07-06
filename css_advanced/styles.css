@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+
+
+
+* {
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.background {
+    background-image: url(./images/Object.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header  {
+    display: flex;
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-left: 5rem;
+    padding: 1rem;
+    /* mt/b mr/l  mt mr mb ml*/
+}
+
+
+nav ul {  
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0; 
+}
+
+nav ul li {
+    list-style: none;
+}
+
+a[href="#"] {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.span {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: #FFFFFF;
+}
+.button1 {
+    display: flex;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C271FF;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 22px;
+    width:  162;
+    height: 44;
+    
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    gap: 10px;
+} 
+h2 span {
+    color: #C271FF;
+    font-weight: 700;
+    
+}
+
+.pros-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    height: 30rem; 
+    
+}
+.pros-grid h3 {
+    color: #FFFFFF;
+}
+.pros-grid p {
+    color: #FFFFFF;
+}
+
+div img[src="./images/bruce_walters.png"] {
+    border-radius: 100%;
+}
+div img[src="./images/weather_presenter.png"] {
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+
+.weather_presenter {
+    margin-left: auto;
+    margin-right: auto;
+    height: 20rem; 
+    background-color:#C271FF;
+    display: flex;
+    justify-content: space-evenly;
+}
+div.weather_presenter {
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.tutorials h2 {
+    color: #071629;
+    gap: 10px;
+}
+.video-list {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: 13%; 
+}
+.smile {
+    position: relative;
+    width: 90%;
+    height: 90%;  
+}
+img.smile {
+    width: 90%;
+    height: 90%;  
+}
+.play{
+    position: absolute;
+    z-index: 1;
+    margin-right: 20px;
+    top: 20%;
+    bottom: 30px; 
+    left: 35%;
+}
+.star {
+    display: flex;
+    gap: 10rem;
+    color: #C271FF;
+}
+.freemembership {
+    background-color: #071629;
+}
+.smileys {
+    display: flex;
+    width:80%;
+    text-align:center;
+    margin-left: 10%;
+    padding-top: 30px;
+
+}
+h3 {
+    color: #FFFFFF;
+}
+
+.h3 {
+    color:#FFFFFF;
+    ;
+}
+.h4 {
+    color: black;
+}
+.FAQ {
+    color: black;
+    font-weight: 300;
+    
+}
+.howdoesthiswork {
+    color: black;
+    font-weight: 600;
+}
+.fourparts {
+    display: flex;
+    width: 70%;
+    padding-left: 15%;
+    gap:10rem;
+    padding-bottom: 3rem;
+}
+.texts {
+    font-weight: 100;
+    text-align: left;
+}
+.footer {
+    background-color: #071629;
+    color: #FFFFFF;
+    padding-top: 3rem;
+}
+.footerflex {
+    display: flex;
+    padding-left:5rem;
+    justify-content: space-between;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+}
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.logo {
+   padding-bottom: 4rem;
+}
+.smileschool {
+    margin-top: 5rem;
+    font-weight: 200;
+    color: gray;
+}
+.button2 {
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C271FF;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 22px;
+    width:  162;
+    height: 44;
+}
+
+
+
+
+
+    
+
